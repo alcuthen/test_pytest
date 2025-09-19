@@ -18,6 +18,7 @@ class TestLogin:
         assert True  
 
 # Para executar marcadores específicos, use:
+# pytest -v test_login.py::TestLogin
 # pytest test_login.py -v -m login
 # pytest test_login.py -vm login
 
